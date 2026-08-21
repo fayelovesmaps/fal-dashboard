@@ -1,0 +1,395 @@
+{
+  "timestamp": "2026-08-20T23:11:07.488068+00:00",
+  "surfaces": [
+    {
+      "surface": "homepage",
+      "url": "https://fal.ai/",
+      "type": "homepage",
+      "viewport_screenshot": "homepage_viewport.png",
+      "placements": [],
+      "self_check": {
+        "surface": "homepage",
+        "all_passed": true,
+        "checks": [
+          {
+            "name": "http_ok",
+            "passed": true,
+            "detail": "status=200"
+          },
+          {
+            "name": "body_has_content",
+            "passed": true,
+            "detail": "body chars=144181"
+          },
+          {
+            "name": "rsc_hook_fired",
+            "passed": true,
+            "detail": "flight entries=68"
+          },
+          {
+            "name": "model_link_selector_valid",
+            "passed": true,
+            "detail": "model links found=9"
+          }
+        ]
+      }
+    },
+    {
+      "surface": "explore",
+      "url": "https://fal.ai/explore",
+      "type": "sections",
+      "viewport_screenshot": "explore_viewport.png",
+      "placements": [
+        {
+          "model": "Wan 2.7 T2V",
+          "family": "wan-2.7",
+          "href": "/models/fal-ai/wan/v2.7/text-to-video",
+          "section": "Text to Video APIs",
+          "slot": 18,
+          "total_in_section": 28,
+          "screenshot": "explore_0_Wan_2_7_T2V.png"
+        },
+        {
+          "model": "Wan 2.7 I2V",
+          "family": "wan-2.7",
+          "href": "/models/fal-ai/wan/v2.7/image-to-video",
+          "section": "Image to Video APIs",
+          "slot": 25,
+          "total_in_section": 28,
+          "screenshot": "explore_1_Wan_2_7_I2V.png"
+        }
+      ],
+      "self_check": {
+        "surface": "explore",
+        "all_passed": true,
+        "checks": [
+          {
+            "name": "http_ok",
+            "passed": true,
+            "detail": "status=200"
+          },
+          {
+            "name": "body_has_content",
+            "passed": true,
+            "detail": "body chars=1045994"
+          },
+          {
+            "name": "rsc_hook_fired",
+            "passed": true,
+            "detail": "flight entries=86"
+          },
+          {
+            "name": "model_link_selector_valid",
+            "passed": true,
+            "detail": "model links found=430"
+          }
+        ]
+      }
+    },
+    {
+      "surface": "search_all",
+      "url": "https://fal.ai/explore/search",
+      "type": "search",
+      "viewport_screenshot": "search_all_viewport.png",
+      "placements": [],
+      "self_check": {
+        "surface": "search_all",
+        "all_passed": true,
+        "checks": [
+          {
+            "name": "http_ok",
+            "passed": true,
+            "detail": "status=200"
+          },
+          {
+            "name": "body_has_content",
+            "passed": true,
+            "detail": "body chars=335557"
+          },
+          {
+            "name": "rsc_hook_fired",
+            "passed": true,
+            "detail": "flight entries=70"
+          },
+          {
+            "name": "model_link_selector_valid",
+            "passed": true,
+            "detail": "model links found=33"
+          }
+        ]
+      }
+    },
+    {
+      "surface": "search_video",
+      "url": "https://fal.ai/explore/search?q=video",
+      "type": "search",
+      "viewport_screenshot": "search_video_viewport.png",
+      "placements": [],
+      "self_check": {
+        "surface": "search_video",
+        "all_passed": true,
+        "checks": [
+          {
+            "name": "http_ok",
+            "passed": true,
+            "detail": "status=200"
+          },
+          {
+            "name": "body_has_content",
+            "passed": true,
+            "detail": "body chars=337140"
+          },
+          {
+            "name": "rsc_hook_fired",
+            "passed": true,
+            "detail": "flight entries=72"
+          },
+          {
+            "name": "model_link_selector_valid",
+            "passed": true,
+            "detail": "model links found=33"
+          }
+        ]
+      }
+    },
+    {
+      "surface": "search_video_generation",
+      "url": "https://fal.ai/explore/search?q=video+generation",
+      "type": "search",
+      "viewport_screenshot": "search_video_generation_viewport.png",
+      "placements": [
+        {
+          "model": "Wan 2.7 T2V",
+          "family": "wan-2.7",
+          "href": "/models/fal-ai/wan/v2.7/text-to-video",
+          "section": "Search Results",
+          "slot": 18,
+          "total_in_section": 28,
+          "screenshot": "search_video_generation_0_Wan_2_7_T2V.png"
+        },
+        {
+          "model": "Wan 2.7 R2V",
+          "family": "wan-2.7",
+          "href": "/models/fal-ai/wan/v2.7/reference-to-video",
+          "section": "Search Results",
+          "slot": 19,
+          "total_in_section": 28,
+          "screenshot": "search_video_generation_1_Wan_2_7_R2V.png"
+        },
+        {
+          "model": "Wan 2.7 Edit",
+          "family": "wan-2.7",
+          "href": "/models/fal-ai/wan/v2.7/edit-video",
+          "section": "Search Results",
+          "slot": 20,
+          "total_in_section": 28,
+          "screenshot": "search_video_generation_2_Wan_2_7_Edit.png"
+        },
+        {
+          "model": "Wan 2.7 I2V",
+          "family": "wan-2.7",
+          "href": "/models/fal-ai/wan/v2.7/image-to-video",
+          "section": "Search Results",
+          "slot": 21,
+          "total_in_section": 28,
+          "screenshot": "search_video_generation_3_Wan_2_7_I2V.png"
+        }
+      ],
+      "self_check": {
+        "surface": "search_video_generation",
+        "all_passed": true,
+        "checks": [
+          {
+            "name": "http_ok",
+            "passed": true,
+            "detail": "status=200"
+          },
+          {
+            "name": "body_has_content",
+            "passed": true,
+            "detail": "body chars=329384"
+          },
+          {
+            "name": "rsc_hook_fired",
+            "passed": true,
+            "detail": "flight entries=70"
+          },
+          {
+            "name": "model_link_selector_valid",
+            "passed": true,
+            "detail": "model links found=33"
+          }
+        ]
+      }
+    },
+    {
+      "surface": "search_text_to_video",
+      "url": "https://fal.ai/explore/search?q=text+to+video",
+      "type": "search",
+      "viewport_screenshot": "search_text_to_video_viewport.png",
+      "placements": [
+        {
+          "model": "HH 1.1 T2V",
+          "family": "happy-horse-1.1",
+          "href": "/models/alibaba/happy-horse/v1.1/text-to-video",
+          "section": "Search Results",
+          "slot": 12,
+          "total_in_section": 28,
+          "screenshot": "search_text_to_video_0_HH_1_1_T2V.png"
+        },
+        {
+          "model": "HH 1.0 T2V",
+          "family": "happy-horse-1.0",
+          "href": "/models/alibaba/happy-horse/text-to-video",
+          "section": "Search Results",
+          "slot": 20,
+          "total_in_section": 28,
+          "screenshot": "search_text_to_video_1_HH_1_0_T2V.png"
+        }
+      ],
+      "self_check": {
+        "surface": "search_text_to_video",
+        "all_passed": true,
+        "checks": [
+          {
+            "name": "http_ok",
+            "passed": true,
+            "detail": "status=200"
+          },
+          {
+            "name": "body_has_content",
+            "passed": true,
+            "detail": "body chars=334274"
+          },
+          {
+            "name": "rsc_hook_fired",
+            "passed": true,
+            "detail": "flight entries=72"
+          },
+          {
+            "name": "model_link_selector_valid",
+            "passed": true,
+            "detail": "model links found=33"
+          }
+        ]
+      }
+    },
+    {
+      "surface": "search_image_to_video",
+      "url": "https://fal.ai/explore/search?q=image+to+video",
+      "type": "search",
+      "viewport_screenshot": "search_image_to_video_viewport.png",
+      "placements": [
+        {
+          "model": "HH 1.1 I2V",
+          "family": "happy-horse-1.1",
+          "href": "/models/alibaba/happy-horse/v1.1/image-to-video",
+          "section": "Search Results",
+          "slot": 21,
+          "total_in_section": 28,
+          "screenshot": "search_image_to_video_0_HH_1_1_I2V.png"
+        },
+        {
+          "model": "HH 1.1 R2V",
+          "family": "happy-horse-1.1",
+          "href": "/models/alibaba/happy-horse/v1.1/reference-to-video",
+          "section": "Search Results",
+          "slot": 22,
+          "total_in_section": 28,
+          "screenshot": "search_image_to_video_1_HH_1_1_R2V.png"
+        }
+      ],
+      "self_check": {
+        "surface": "search_image_to_video",
+        "all_passed": true,
+        "checks": [
+          {
+            "name": "http_ok",
+            "passed": true,
+            "detail": "status=200"
+          },
+          {
+            "name": "body_has_content",
+            "passed": true,
+            "detail": "body chars=336518"
+          },
+          {
+            "name": "rsc_hook_fired",
+            "passed": true,
+            "detail": "flight entries=70"
+          },
+          {
+            "name": "model_link_selector_valid",
+            "passed": true,
+            "detail": "model links found=33"
+          }
+        ]
+      }
+    },
+    {
+      "surface": "learn",
+      "url": "https://fal.ai/learn",
+      "type": "learn_index",
+      "viewport_screenshot": "learn_viewport.png",
+      "placements": [],
+      "self_check": {
+        "surface": "learn",
+        "all_passed": true,
+        "checks": [
+          {
+            "name": "http_ok",
+            "passed": true,
+            "detail": "status=200"
+          },
+          {
+            "name": "body_has_content",
+            "passed": true,
+            "detail": "body chars=162409"
+          },
+          {
+            "name": "rsc_hook_fired",
+            "passed": true,
+            "detail": "flight entries=82"
+          },
+          {
+            "name": "learn_link_selector_valid",
+            "passed": true,
+            "detail": "learn links found=28"
+          }
+        ]
+      }
+    },
+    {
+      "surface": "blog",
+      "url": "https://blog.fal.ai/",
+      "type": "blog_index",
+      "viewport_screenshot": "blog_viewport.png",
+      "placements": [],
+      "self_check": {
+        "surface": "blog",
+        "all_passed": true,
+        "checks": [
+          {
+            "name": "http_ok",
+            "passed": true,
+            "detail": "status=200"
+          },
+          {
+            "name": "body_has_content",
+            "passed": true,
+            "detail": "body chars=15528"
+          },
+          {
+            "name": "blog_h2_selector_valid",
+            "passed": true,
+            "detail": "h2 headings found=25"
+          }
+        ]
+      }
+    }
+  ],
+  "scraper_health": {
+    "all_passed": true,
+    "failed_checks": []
+  }
+}

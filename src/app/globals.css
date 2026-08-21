@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .slot-good {
+    @apply bg-emerald-100 text-emerald-800;
+  }
+  .slot-ok {
+    @apply bg-amber-100 text-amber-800;
+  }
+  .slot-bad {
+    @apply bg-red-100 text-red-800;
+  }
+  .change-up {
+    @apply bg-emerald-100 text-emerald-700;
+  }
+  .change-down {
+    @apply bg-red-100 text-red-700;
+  }
+  .change-new {
+    @apply bg-blue-100 text-blue-700;
+  }
+  .change-removed {
+    @apply bg-red-100 text-red-700;
+  }
+}
